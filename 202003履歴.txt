@@ -1,0 +1,238 @@
+sen1 newm1yellow
+sen2     10darkblue
+sen3     7darkpurple
+sen4	8white
+sen5	9black
+
+senkyouchou m3red
+
+point 12midgreen
+
+2020/03/14 10:20
+color回り（30）
+10;50
+m1_4　パブリック当てはめ
+
+
+2020/03/22 20:00
+m1_4 色当てはめ
+　　public Material StLineNewm3red;
+    public Material Line1NewM1Yellow;
+    public Material Line2NewM10DarkBlue;
+    public Material Line3NewM7DarkPurple;
+    public Material Line4NewM8White;
+    public Material Line5NewM9Black;
+    public Material PointNewm12MidGreen;
+20:10
+rr1～10
+rrM1_4LineDE = M1_4LineDE.GetComponent<Renderer>();
+        rrM1_4LineEF = M1_4LineEF.GetComponent<Renderer>();
+        rrM1_4LineFD = M1_4LineFD.GetComponent<Renderer>();
+
+        rrM1_4LineStAB = M1_4LineStAB.GetComponent<Renderer>();
+        rrM1_4LineStBC = M1_4LineStBC.GetComponent<Renderer>();
+        rrM1_4LineStCA = M1_4LineStCA.GetComponent<Renderer>();
+        rrM1_4LineStDE = M1_4LineStDE.GetComponent<Renderer>();
+        rrM1_4LineStEF = M1_4LineStEF.GetComponent<Renderer>();
+        rrM1_4LineStFD = M1_4LineStFD.GetComponent<Renderer>();
+
+        rrM1_4PointA = M1_4PointA.GetComponent<Renderer>();
+        rrM1_4PointB = M1_4PointB.GetComponent<Renderer>();
+        rrM1_4PointC = M1_4PointC.GetComponent<Renderer>();
+        rrM1_4PointD = M1_4PointD.GetComponent<Renderer>();
+        rrM1_4PointE = M1_4PointE.GetComponent<Renderer>();
+        rrM1_4PointF = M1_4PointF.GetComponent<Renderer>();
+
+        rrM1_4PointStA = M1_4PointStA.GetComponent<Renderer>();
+        rrM1_4PointStB = M1_4PointStB.GetComponent<Renderer>();
+        rrM1_4PointStC = M1_4PointStC.GetComponent<Renderer>();
+        rrM1_4PointStD = M1_4PointStD.GetComponent<Renderer>();
+        rrM1_4PointStE = M1_4PointStE.GetComponent<Renderer>();
+        rrM1_4PointStF = M1_4PointStF.GetComponent<Renderer>();
+
+        rrM1_4TextA = M1_4TextA.GetComponent<Renderer>();
+        rrM1_4TextB = M1_4TextB.GetComponent<Renderer>();
+        rrM1_4TextC = M1_4TextC.GetComponent<Renderer>();
+        rrM1_4TextD = M1_4TextD.GetComponent<Renderer>();
+        rrM1_4TextE = M1_4TextE.GetComponent<Renderer>();
+        rrM1_4TextF = M1_4TextF.GetComponent<Renderer>();
+
+       
+
+        rrM1_4kakuBAC = M1_4kakuBAC.GetComponent<Renderer>();
+        rrM1_4kakuStBAC = M1_4kakuStBAC.GetComponent<Renderer>();
+        rrM1_4kakuABC = M1_4kakuABC.GetComponent<Renderer>();
+        rrM1_4kakuStABC = M1_4kakuStABC.GetComponent<Renderer>();
+        rrM1_4kakuACB = M1_4kakuACB.GetComponent<Renderer>();
+        rrM1_4kakuStACB = M1_4kakuStACB.GetComponent<Renderer>();
+
+
+        rrM1_4kakuEDF = M1_4kakuEDF.GetComponent<Renderer>();
+        rrM1_4kakuStEDF = M1_4kakuStEDF.GetComponent<Renderer>();
+        rrM1_4kakuDEF = M1_4kakuDEF.GetComponent<Renderer>();
+        rrM1_4kakuStDEF = M1_4kakuStDEF.GetComponent<Renderer>();
+        rrM1_4kakuDFE = M1_4kakuDFE.GetComponent<Renderer>();
+        rrM1_4kakuStDFE = M1_4kakuStDFE.GetComponent<Renderer>();
+
+2020/03/24 13:30
+9
+10
+m1_4rr完了　2.30h
+15:50
+
+2020/03/24　23;00
+色見確認
+
+m1_4 色当てはめ
+　　public Material StLineNewm3red;
+    public Material Line1NewM1Yellow;
+    public Material Line2NewM10DarkBlue;
+    public Material Line3NewM7DarkPurple;
+    public Material Line4NewM8White;
+    public Material Line5NewM9Black;
+    public Material PointNewm12MidGreen;
+
+オブジェ作り　線づくり
+00;00
+
+2020/03/25　6:00
+m1_5オブジェ作り　色以外完成
+6:30
+
+2020/03/26 13:40
+m1_5オブジェ作り
+15:40
+
+18:15
+m1_5オブジェ作り1.50H
+20:05
+m1_5オブジェ当てはめ完了　15
+20:20
+
+2020/03/30 12:20
+unity kikasample2019.2.14f1
+
+
+AD  bug修正0.45H
+13:40
+rr30
+33
+43
+68
+rrM1_5LineStAB.material = StLineNewm3red;
+Line4NewM8White;
+
+m1_5rr完成
+14:40
+
+2020/04/01　22:10
+オブジェ作成＞図かく
+
+
+ab bc ca
+db dc
+dcb abc
+
+三角形ABCにおいて角ABCと角ACBが等しいものとする。このとき、辺ABが辺ACに等しいと主張する。
+ もしABがACと等しくなければどちらかが長いことになる。ABがACより長いとすれば、
+ACと同じ長さの直線DBを切り取ることができる[命題I-3]。このとき、直線DCを引く[公準P-1]。
+ DBはACと等しく、BCを共有しているから、DB、ＢＣとAC、CBの二辺がそれぞれ等しく、
+角DBCと角ACBが等しい。よって、底辺DCはABと等しく、
+三角形DBCと三角形ACBは等しい[命題I-4]。これは小さいものと大きいものが等しいことになり矛盾である[公理A-5]。
+したがって、ABとACは等しい。
+ ゆえに、三角形の二つの角が等しいならば、それらに対する二つの辺も互いに等しい。
+これが証明すべきことであった。
+
+公理A-5
+ Καὶ τὸ ὅλον τοῦ μέρους μεῖζον [ἐστιν].
+ そして、全体は部分より大きい。
+
+　public Material StLineNewm3red;
+    public Material Line1NewM1Yellow;
+    public Material Line2NewM10DarkBlue;
+    public Material Line3NewM7DarkPurple;
+    public Material Line4NewM8White;
+    public Material Line5NewM9Black;
+    public Material PointNewm12MidGreen;
+オブジェ途中まで
+2:20
+
+
+13:45
+m1_6　オブジェ当てはめ
+16:55
+rr2
+
+2020/04/05　16:00
+m1_6　rr2まで
+16:40
+
+2020/04/06　16:00
+34　49
+26
+27
+
+2020/04/08　14:15
+26から強調を白に（AC、BD）
+４６
+rr1_6　完成
+16:24
+
+
+
+pacagename 
+
+UnityEditor.BuildPlayerWindow+BuildMethodException: 7 errors
+  at UnityEditor.BuildPlayerWindow+DefaultBuildMethods.BuildPlayer 
+(UnityEditor.BuildPlayerOptions options) [0x00242] 
+in C:\buildslave\unity\build\Editor\Mono\BuildPlayerWindowBuildMethods.cs:190 
+  at UnityEditor.BuildPlayerWindow.CallBuildMethods 
+(System.Boolean askForBuildLocation, UnityEditor.
+BuildOptions defaultBuildOptions) [0x0007f] 
+in C:\buildslave\unity\build\Editor\Mono\BuildPlayerWindowBuildMethods.cs:95 
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr) 
+(at C:/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:179)
+
+Build completed with a result of 'Failed'
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr) 
+(at C:/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:179)
+
+UnityException: Package Name has not been set up correctly
+Please set the Package Name in the Player Settings. 
+The value must follow the convention 'com.YourCompanyName.
+YourProductName' and can contain alphanumeric characters and underscore.
+Each segment must not start with a numeric character or underscore.
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr) 
+(at C:/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:179)
+
+Scope was not disposed! You should use the 'using' keyword or manually call Dispose.
+UnityEngine.Scope:Finalize() (at C:/buildslave/unity/build/Modules/IMGUI/GUI.cs:1704)
+
+NullReferenceException: Object reference not set to an instance of an object
+UnityEditor.Android.SDKManager..ctor () (at <21da158cd428404389e0b5a08ba9ea0a>:0)
+UnityEditor.Android.SDKManager.GetInstance () (at <21da158cd428404389e0b5a08ba9ea0a>:0)
+UnityEditor.Android.AndroidPlatformIconProvider.GetCurrentSetAndroidSDKVersion () 
+(at <21da158cd428404389e0b5a08ba9ea0a>:0)
+UnityEditor.Android.AndroidPlatformIconProvider.UpdateSDKVersion () 
+(at <21da158cd428404389e0b5a08ba9ea0a>:0)
+UnityEditor.Android.AndroidPlatformIconProvider.get_targetSDKSupportsAdaptiveIcons () 
+(at <21da158cd428404389e0b5a08ba9ea0a>:0)
+UnityEditor.Android.PlayerSettingsEditorExtension.IconSectionGUI () 
+(at <21da158cd428404389e0b5a08ba9ea0a>:0)
+UnityEditor.PlayerSettingsEditor.IconSectionGUI 
+(UnityEditor.BuildTargetGroup targetGroup, UnityEditor.Modules.ISettingEditorExtension settingsExtension,
+ System.Int32 sectionIndex) 
+(at C:/buildslave/unity/build/Editor/Mono/Inspector/PlayerSettingsEditor/PlayerSettingsEditor.cs:810)
+UnityEditor.PlayerSettingsEditor.OnInspectorGUI () 
+(at C:/buildslave/unity/build/Editor/Mono/Inspector/PlayerSettingsEditor/PlayerSettingsEditor.cs:580)
+UnityEditor.AssetSettingsProvider.OnGUI (System.String searchContext) (at C:/buildslave/u
+
+
+edit>preference>
+
+sdk ndk unityhubでおすすめのものを2019.2.14f1
+
+
+ASSET＞IMPORTPACCAGE＞CUSTOMPACCAGE
+
+

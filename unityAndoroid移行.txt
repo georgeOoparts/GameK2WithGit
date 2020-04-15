@@ -1,0 +1,25 @@
+pc＞携帯に　apcファイル移す
+unity＞file＞buildsettings＞（ここいつも忘れる）scene　in　build　でシーンをチェック入れる
+＞add　open　sceneでシーンを追加
+
+platformをandroidにする
+
+playersetting＞playerでpuroductNameなどを調整
+
+buildボタンクリック＞apkファイル出力
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+2020/04/14　に使っている携帯電話端末tommy3plus　android8.1.0
+
+普段使っている充電ケーブル黒を　PCとtommy3につなぐ
+
+tommy3　設定＞接続済みの端末＞ファイルを転送を選択
+
+これでｐｃとtommy3でデータのやり取りができるのでｐｃ　unityで作ったapkファイルを
+tommy3におく
+
+tommy3でapkファイルタップ＞インストール＞Gameのショートカットができる
+
+ショートカットタップ　gameができる。
+
+

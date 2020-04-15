@@ -1,0 +1,12 @@
+定期的にunityのpakageを保存
+pakageファイルにするとunityのversionが違ってもGameが動くっポイ（多分）
+
+まずunityはくそなので、しょっちゅうversionupしますか？と聞いてくるが
+
+versionUpしてはだめgame壊れる＞
+
+そこでpakageファイルにして定期的に保存＞古いversionを新たにインストールapkファイルあれば
+完全に復旧できる
+
+assets>exportPacage>All選択＞EXPORT
+

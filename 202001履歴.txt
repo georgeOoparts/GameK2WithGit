@@ -1,0 +1,299 @@
+2020/01/02 1:53
+
+
+2020/01/09 15:00
+unityの使っているver　Unity 2019.2.14f1 (64-bit)が開けない
+invalid　dependencies　とメッセージ
+p32
+uguiとかpackagemanagerとかが依存できないとか出ているので
+おそらくライセンス更新を無視し続けた事により、使えなくなったものと
+思われる。
+
+
+An error occurred while resolving packages: 
+Package com.unity.cinemachine@2.1.12 has invalid dependencies:
+com.unity.modules.timeline: Package [com.unity.modules.timeline@1.0.0] cannot be found
+
+よくわからんが、長期サポートのunityを
+dlし、初めからやり直そう
+15:27
+
+
+21:16
+a re-import of project may be
+
+2019.2.14f1
+
+2019.2.17f1をインストール
+
+そもそも
+
+1:17
+プロジェクト　
+Unity 2019.2.14f1 (64-bit)をunityhubより削除
+また2019.2.14f1 (64-bit)をDLで復旧
+
+＞ひょっとしたらunityversion　upversion＞ダウンversionした結果？
+1:17
+
+2019/01/11 15:00
+unityの異なるversion間で
+オブジェ移行できるか実験してみる
+
+2019/01/12 13:30
+ソースツリーが対応しているか実験
+
+13:56
+ｔ９フラッグテキストパネル並べ＞flagnumberでフラッグの内容を変えている。
+
+＞命題で対応のパネルをクリックすると、対応のフラッグナンバーになる
+＞命題で対応のパネルをクリックすると、moveflagpanelがy軸0になる。
+＞フラッグパネルのスワイプフリック
+
+これを1つずつ実装
+
+14:15
+＞命題で対応のパネルをクリックすると、対応のフラッグナンバーになる
+
+＞＞デバッグログ当てはめ
+14:34
+＞＞共通変数へflagnumber移動
+＞＞＞共通変数メインカメラにアタッチして使う
+＞＞＞m7clickchangefnを作る
+＞＞＞flagtextpanelの変数名をmeidaiNumberに変える
+15:17
+＞＞＞共通変数meidaiNumberへ移行
+＞＞＞＞m9flagtextpanel　移行
+15:45
+
+＞＞flagnumber デバッグログで表示
+＞＞パネルでflagnumber変更
+＞＞パネルでメインカメラ移動
+
+
+2020/01/21 16:00
+やる事確認
+オブジェ構成
+canvas>MokujiPanel>MoveMokujiPanel>MokujiTextPanel1_1～6>TextMokuji1_1～6
+canvas>FlagPanel>MoveflagPanel>Flag1_1～6>FlagPanel1_1_1～6
+
+横移動途中で止まるの直す＞やらない
+
+横移動　共通変数でやる＞やらない
+
+目次ボタン　移動＞やる
+
+多少粗削りでもスピードを重視しよう
+
+uiクリック反応テストOK
+
+17:20
+
+21:00
+命題ボタンでフラッグを変更OK
+22:06
+
+単純にタップした時のみフラッグナンバー変更にしたい。
+コードクロニクル
+23:00
+
+
+2020/01/23 00:30
+ボタン処理、
+
+ボタン押す時間が短いとき
+ボタンを押した位置が同じ時のみ
+ボタンで命題変数変更　に改良
+1:48
+ 
+22:15
+T0018M_clickChangeFN0　お直し
+22:40
+
+命題のボタン押すとメインカメラフラッグ移動完了
+＞RR
+23:53
+
+2020/01/29 00:30
+mojihonbanリサーチ
+1:00
+mojihonbanコピー
+まずプレハブ呼び出ししてみよう
+1:30
+
+2020/01/31　00:37
+丸々コピーやってみる
+ファイル名も前のまま
+
+1:00
+
+2020/01/31　5:55
+
+RR前まで
+7:45
+
+
+2020/02/01　6;05
+RR前　解説文つける
+7:00
+パラメータ調整
+プレハブのフォントサイズ20
+テキストパネルの幅350（画面ギリギリ）
+だと丁度よく改行される
+
+7:23
+チェック
+m1_2　13　ABを
+aとbを結ぶ　公準ｐ－１
+
+oke
+
+m1_3　35
+ｍ１＿５　４４
+
+7:27
+ｒｒcountをdebuglogで表示させるプログラム
+7:33
+
+m1_2だけ修正
+7:50
+
+2020/02/03　10:25
+m1_3　修正
+10:30
+m1_5修正
+10:35
+
+11:00
+公理から
+
+2020/02/05　11;11
+KA_1　完成
+11:55
+KA_3_LineA1
+KA_3_LineStA1
+
+13:45
+ka3　オブジェ作り
+14:00
+ka3オブジェプロ当てはめ
+14:05
+ka4
+オブジェ作り
+14:30
+当てはめ
+14:51
+ka5
+オブジェ作り
+urataffy@gmail.com
+hiruton8
+
+2020/02/06　15:25
+ka5完了
+16:00
+
+16:15
+ｋｊ１
+16:45
+ｋｊ２
+17:04
+ｋｊ３
+17:45
+
+
+C:\Users\USER-PC\Documents\kikaSampleRemoteからコピー
+2020/02/08　5:22
+tdi1　飛ばし
+5:30
+tdi15
+6:05
+
+2020/02/14 15:07
+1-2preまで終わっていることを確認。
+続き＞オブジェ作り
+途中まで
+15:58
+
+　　	public GameObject M1_2LineDB;
+    public GameObject M1_2LineSDB;
+
+    	public GameObject M1_2LineDA;
+    public GameObject M1_2LineSDA;
+
+    	public GameObject M1_2LineAB;
+    public GameObject M1_2LineSAB;
+
+    	public GameObject M1_2LineAL;
+    public GameObject M1_2LineSAL;
+
+    	public GameObject M1_2LineBG;
+    public GameObject M1_2LineSBG;
+
+    	public GameObject M1_2LineAE;
+    public GameObject M1_2LineSAE;
+
+    	public GameObject M1_2LineBF;
+    public GameObject M1_2LineSBF;
+
+    	public GameObject M1_2LineBC;
+    public GameObject M1_2LineSBC;
+
+    	public GameObject M1_2LineDL;
+    public GameObject M1_2LineSDL;
+
+    	public GameObject M1_2LineDG;
+    public GameObject M1_2LineSDG;
+
+23:00
+
+23:55
+2020/02/16　16:22
+m1_2オブジェ作り
+18:00
+プロあてはめ
+15:55
+
+23:00
+m1_3pre　終了
+23:37
+m1_3オブジェ
+0:10
+
+2020/02/19 13:45
+m1_3
+obuj プログラム当てはめ
+15:55
+
+2020/02/23 17:10 
+m1_3 完了
+17:45
+
+2020/02/24　18:45
+m1_4　rr18まで
+0:45
+
+2020/02/27　15:15
+bag対応
+とりあえず対応完了
+17:25
+17:35
+再び
+rr6角BAC　EDFの色変える
+public Material MColor0;//blue
+    public Material MColor1;//yellow
+    public Material MColor2;//green
+    public Material MColor3;//red
+    public Material MColor4;//orange
+    public Material MColor5;//purple
+    public Material MColor6;//pink
+    public Material MColor7;//darkpurple
+    public Material MColor8;//white
+    public Material MColor9;//black
+
+ok　ちょっと調整
+rr１３までOK
+17:55
+rr40までOK
+18:45
+rr55までOK
+18:50
